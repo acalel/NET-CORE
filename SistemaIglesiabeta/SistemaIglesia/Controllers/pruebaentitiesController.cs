@@ -19,8 +19,47 @@ namespace SistemaIglesia.Controllers
             _context = context;
         }
 
+
+        [HttpPost]
+        public string Index(string searchString, bool notUsed)
+        {
+            return "From [HttpPost]Index: filter on " + searchString;
+        }
+
+        // GET: Movies
+        public async Task<IActionResult> Index(string movieGenre, string searchString)
+        {
+            // Use LINQ to get list of genres.
+            IQueryable<string> genreQuery = from m in _context.Movie
+                                            orderby m.Genre
+                                            select m.Genre;
+
+            var movies = from m in _context.Movie
+                         select m;
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                movies = movies.Where(s => s.Title.Contains(searchString));
+            }
+
+            if (!string.IsNullOrEmpty(movieGenre))
+            {
+                movies = movies.Where(x => x.Genre == movieGenre);
+            }
+
+            var movieGenreVM = new MovieGenreViewModel
+            {
+                Genres = new SelectList(await genreQuery.Distinct().ToListAsync()),
+                Movies = await movies.ToListAsync()
+            };
+
+            return View(movieGenreVM);
+        }
+
+
+
         // GET: pruebaentities
-        public async Task<IActionResult> Index(string searchString)
+        public async Task<IActionResult> Index2(string searchString)
         {
             var movies = from m in _context.Movie
                          select m;
@@ -29,7 +68,8 @@ namespace SistemaIglesia.Controllers
             {
                 movies = movies.Where(s => s.Title.Contains(searchString));
             }
-            return View(await _context.Movie.ToListAsync());
+
+            return View(await movies.ToListAsync());
         }
 
         // GET: pruebaentities/Details/5
