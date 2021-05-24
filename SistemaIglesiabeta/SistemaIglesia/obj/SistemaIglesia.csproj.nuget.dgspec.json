@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\COPIARECISTO\\PROYECTOS\\NetCore\\SistemaIglesia\\SistemaIglesia\\SistemaIglesia.csproj": {}
+    "F:\\COPIARECISTO\\PROYECTOS\\NetCore\\NET-CORE\\SistemaIglesiabeta\\SistemaIglesia\\SistemaIglesia.csproj": {}
   },
   "projects": {
-    "F:\\COPIARECISTO\\PROYECTOS\\NetCore\\SistemaIglesia\\SistemaIglesia\\SistemaIglesia.csproj": {
+    "F:\\COPIARECISTO\\PROYECTOS\\NetCore\\NET-CORE\\SistemaIglesiabeta\\SistemaIglesia\\SistemaIglesia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\COPIARECISTO\\PROYECTOS\\NetCore\\SistemaIglesia\\SistemaIglesia\\SistemaIglesia.csproj",
+        "projectUniqueName": "F:\\COPIARECISTO\\PROYECTOS\\NetCore\\NET-CORE\\SistemaIglesiabeta\\SistemaIglesia\\SistemaIglesia.csproj",
         "projectName": "SistemaIglesia",
-        "projectPath": "F:\\COPIARECISTO\\PROYECTOS\\NetCore\\SistemaIglesia\\SistemaIglesia\\SistemaIglesia.csproj",
+        "projectPath": "F:\\COPIARECISTO\\PROYECTOS\\NetCore\\NET-CORE\\SistemaIglesiabeta\\SistemaIglesia\\SistemaIglesia.csproj",
         "packagesPath": "C:\\Users\\acalel\\.nuget\\packages\\",
-        "outputPath": "F:\\COPIARECISTO\\PROYECTOS\\NetCore\\SistemaIglesia\\SistemaIglesia\\obj\\",
+        "outputPath": "F:\\COPIARECISTO\\PROYECTOS\\NetCore\\NET-CORE\\SistemaIglesiabeta\\SistemaIglesia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

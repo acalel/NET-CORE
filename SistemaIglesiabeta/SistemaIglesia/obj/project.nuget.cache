@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XFPuPJ2jh0QqxcPoxedLcq4r6RUz0RIi0DBsqX55vKuCTrJVj/iDsM+FXiuuGeKtqRCnhvClUgHHnhNJ4ciyNA==",
+  "dgSpecHash": "+vLXd3FLnxW1107FvtbsSqLVKPjisc3PI0660E4CfhZ6HwtXqVJkFpX6s5NvC/58MLE4k/sCh/DKXTmKuyR1mw==",
   "success": true,
-  "projectFilePath": "F:\\COPIARECISTO\\PROYECTOS\\NetCore\\SistemaIglesia\\SistemaIglesia\\SistemaIglesia.csproj",
+  "projectFilePath": "F:\\COPIARECISTO\\PROYECTOS\\NetCore\\NET-CORE\\SistemaIglesiabeta\\SistemaIglesia\\SistemaIglesia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\acalel\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\acalel\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

@@ -23,7 +23,7 @@ namespace SistemaIglesia.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult CrearRecibo()
         {
             return View();
         }
